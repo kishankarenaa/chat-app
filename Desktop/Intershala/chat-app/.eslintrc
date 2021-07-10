@@ -2,8 +2,8 @@
   "extends": [
     "eslint:recommended",
     "airbnb",
-    "prettier",
-    "prettier/react"
+    "prettier"
+    
   ],
   "plugins": [
     "react-hooks"
@@ -43,6 +43,8 @@
     "no-param-reassign": [
       0
     ],
+    "arrow-body-style" :[0],
+    "prefer-arrow-callback" : [0] ,
     "react-hooks/rules-of-hooks": "error",
     "react-hooks/exhaustive-deps": "warn"
   }
